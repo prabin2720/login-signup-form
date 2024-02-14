@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    image{
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.4)rgba(0,0,0,0.4))url(banner.jpg);
+        position: absolute;
+        background-position: center;
+        background-size: cover;
+
+    }
+   
+    h1{
+        color: red;
+        text-align: center;
+    }
+    body{
+       
+        border: 2px solid black;
+        height: 500px;
+        width:650px;
+        border-radius: 10px;
+       margin-top: 100px;
+       margin-left: 400px;
+        background-image: url(banner.jpg);
+        position: absolute;
+        background-position: center;
+        background-size: cover;
+
+    }
+    button{
+        background-color: orange;
+        
+    }
+    
+</style>
+<body>
+    <div class="image">
+    <h1>Sign Up</h1>
+    <P>Please fill in this form to create an account</P><br><br>
+    <form >
+    <label for="fname">First Name</label>
+    <input type="text">
+    <label for="lname">Last Name</label>
+    <input type="text"><br><br>
+    <label for="email">Email</label>
+    <input type="email"><br><br>
+    <label for="password">Password</label>
+    <input type="password"><br><br>
+    <label for="repeat password"> Repeat Password</label>
+    <input type="password"><br><br>
+    <button id="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>
